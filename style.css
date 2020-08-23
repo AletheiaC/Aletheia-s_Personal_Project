@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #f1ba87;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+
+
+.banner{
+    flex-direction: column;
+    margin-left: 20%;
+}
+
+.sidemenu{
+    flex-direction: row;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;
+    color: #694879;
+    justify-content: space-evenly;
+}
+
+.menu2:hover{
+    width: 200px;
+    height: 35px;
+    justify-content: center;
+    background-color: lime;
+}
+
+.menu3:hover{
+    width: 200px;
+    height: 35px;
+    justify-content: center;
+    background-color: #5ce1e6;
+}
+
+.menu4:hover{
+    width: 200px;
+    height: 35px;
+    justify-content: center;
+    background-color: #ff19cf;
+}
+
+.menu5:hover{
+    width: 200px;
+    height: 35px;
+    justify-content: center;
+    background-color: #fdfa00;
+} 
+
+
+.about_me{
+    /* padding: 2%; */
+    margin-left: 15%;
+    /* width: 1000px;
+    height: 200px; */
+    /* margin-left: 5%; */
+    background-color: #f1ba87;
+    border-style: solid;
+    border-width: 20px;
+    border-color: #f1ba87;
+}
+
+/* .about_text{
+    margin-left: 40%;
+    position: relative; bottom: 60px;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;
+    color: #694879;
+    background-color: #f1ba87;
+}
+
+.about_para{
+    flex-direction: column;
+    flex-flow: wrap;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative; bottom: 40px;
+    background-color: #f1ba87;
+} */
+
+
+ /* .menu1:hover{
+     width: 150px;
+     height: 30px;
+    background-color: #fdfa00;
+} */
+
+
+/* .favorites{
+    flex-direction: column;
+} */
+
+.weeklyf{
+    padding: 5%;
+    /* margin: 2%; */
+    /* width: 1000px;
+    height: 200px; */
+    margin-left: 5%;
+    /* background-color: white; */
+}
+
+.fav_a{
+    padding: 5%;
+    margin: 2%;
+    width: 1000px;
+    height: 200px;
+    margin-left: 5%;
+    background-color: white;
+    border-style: solid;
+    border-width: 20px;
+    border-color: lime;
+}
+
+.h_a{
+    margin-left: 25%;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;
+    color: #694879;
+    background-color: white;
+    position: relative; bottom: 60px;
+}
+
+.a_p{
+    width: 800px;
+    height: 200px;
+    margin-left: 25%;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #694879;
+    justify-content:flex-end ;
+    background-color: white;
+    position: relative; bottom: 200px;
+}
+
+.fav_d{
+    padding: 5%;
+    margin: 2%;
+    width: 1000px;
+    height: 200px;
+    margin-left: 5%;
+    background-color: white;
+    border-style: solid;
+    border-width: 20px;
+    border-color: #5ce1e6;
+}
+
+/* .designi{
+    margin-left: 4%;
+} */
+
+.h_d{
+    margin-left: 22%;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;
+    color: #694879;
+    background-color: white;
+    position: relative; bottom: 60px;
+}
+
+.d_p{
+    width: 800px;
+    height: 200px;
+    margin-left: 25%;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #694879;
+    justify-content:flex-end ;
+    background-color: white;
+    position: relative; bottom: 200px;
+}
+
+
+.fav_h{
+    padding: 5%;
+    margin: 2%;
+    width: 1000px;
+    height: 200px;
+    margin-left: 5%;
+    background-color: white;
+    border-style: solid;
+    border-width: 20px;
+    border-color: #ff19cf;
+}
+
+.h_h{
+    margin-left: 20%;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;
+    color: #694879;
+    background-color: white;
+    position: relative; bottom: 60px;
+}
+
+.h_p{
+    width: 800px;
+    height: 200px;
+    margin-left: 25%;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #694879;
+    justify-content:flex-end ;
+    background-color: white;
+    position: relative; bottom: 200px;
+}
+
+.fav_m{
+    padding: 5%;
+    margin: 2%;
+    width: 1000px;
+    height: 200px;
+    margin-left: 5%;
+    background-color: white;
+    border-style: solid;
+    border-width: 20px;
+    border-color: #fdfa00;
+}
+
+.h_m{
+    margin-left: 25%;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;
+    color: #694879;
+    background-color: white;
+    position: relative; bottom: 60px;
+}
+
+.m_p{
+    width: 800px;
+    height: 200px;
+    margin-left: 25%;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #694879;
+    justify-content:flex-end ;
+    background-color: white;
+    position: relative; bottom: 200px;
+}
+
+
+
+.fav_b{
+    padding: 5%;
+    margin: 2%;
+    width: 1000px;
+    height: 200px;
+    margin-left: 5%;
+    background-color: white;
+    border-style: solid;
+    border-width: 20px;
+    border-color: #694879;
+}
+
+.h_b{
+    margin-left: 20%;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;
+    color: #694879;
+    background-color: white;
+    position: relative; bottom: 60px;
+}
+
+.b_p{
+    width: 800px;
+    height: 200px;
+    margin-left: 35%;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #694879;
+    justify-content:flex-end ;
+    background-color: white;
+    position: relative; bottom: 200px;
+}
+
+.ital{
+font-style: italic;
+}
+
+.footer{
+    width: 1349px;
+    height: 50px;
+    background-color: #e79140;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;
+    color: lightgrey;
+    justify-content: center;
+}
+
+/* <div class="menu2"><li><a href="#art" title="Jump to: Art Favorites">Art</a></li></div> */
+/* <div class="h_a">Art Favorites</div> */
